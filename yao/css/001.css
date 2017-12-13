@@ -1,0 +1,564 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.music{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    z-index: 999;
+     animation: img1 4s linear infinite;
+}
+.swiper-slide .swiper1 {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 1, 32);
+}
+.swiper-slide .swiper1 img:nth-child(1){
+    position: absolute;
+    top: -3%;
+    left: -6%;
+    overflow: hidden;
+}
+.swiper-slide .swiper1 img:nth-child(2){
+    position: absolute;
+    top: -7%;
+    right: -15%;
+    overflow: hidden;
+}
+.swiper-slide .swiper1 img:nth-child(3){
+    position: absolute;
+    bottom:60%;
+    left:10%;
+    overflow: hidden;
+    
+}
+.swiper-slide .swiper1 img:nth-child(4){
+    position: absolute;
+    top:40%;
+    left:23%;
+    overflow: hidden;
+     animation: img1 15s linear infinite;
+}
+.swiper-slide .swiper1 img:nth-child(5){
+    position: absolute;
+    bottom:-5%;
+    left:-5%;
+    overflow: hidden;
+}
+.swiper-slide .swiper1 img:nth-child(6){
+    position: absolute;
+    bottom:10%;
+    right:5%;
+    overflow: hidden;
+    opacity: 0.6;
+}
+.swiper-slide .swiper1 img:nth-child(7){
+    position: absolute;
+    top:15%;
+    left:25%;
+    overflow: hidden;
+    opacity: 0.6;
+    width: 500px;
+}
+.swiper-slide .swiper1 p{
+    color: aliceblue;
+    left: 23%;
+    top: 25%;
+    position: absolute;
+    font-size: 60px;
+    font-family: yuanhei;
+    opacity: 0.6;
+}
+@keyframes img1{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper-slide .swiper2 {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 1, 32);
+}
+.swiper-slide .swiper2 img:nth-child(1){
+    position: absolute;
+    top: -3%;
+    left: -6%;
+    overflow: hidden;
+}
+.swiper-slide .swiper2 img:nth-child(2){
+    position: absolute;
+    top: -7%;
+    right: -15%;
+    overflow: hidden;
+}
+.swiper-slide .swiper2 img:nth-child(3){
+    position: absolute;
+    bottom:60%;
+    left:10%;
+    overflow: hidden;
+    
+}
+.swiper-slide .swiper2 img:nth-child(4){
+    position: absolute;
+    top:65%;
+    left:23%;
+    overflow: hidden;
+    animation: img2 5s linear;
+}
+.swiper-slide .swiper2 img:nth-child(5){
+    position: absolute;
+    bottom:-5%;
+    left:-5%;
+    overflow: hidden;
+}
+.swiper-slide .swiper2 img:nth-child(6){
+    position: absolute;
+    bottom:4%;
+    right:-10%;
+    overflow: hidden;
+    opacity: 0.6;
+    animation: img3 5s linear;
+}
+.swiper-slide .swiper2 img:nth-child(7){
+    position: absolute;
+    top:15%;
+    left:25%;
+    overflow: hidden;
+    opacity: 0.6;
+    width: 500px;
+}
+.swiper-slide .swiper2 img:nth-child(8){
+    position: absolute;
+    top:28%;
+    left:15%;
+    overflow: hidden;
+    opacity: 0.6;
+    width: 500px;
+}
+.swiper-slide .swiper2 img:nth-child(9){
+    position: absolute;
+    top:20%;
+    right:-35%;
+    overflow: hidden;
+    opacity: 0.6;
+    width: 1400px;
+    
+}
+.swiper-slide .swiper2 p{
+    color: aliceblue;
+    left: 23%;
+    top: 15%;
+    position: absolute;
+    font-size: 60px;
+    font-family: yuanhei;
+    opacity: 0.6;
+}
+.swiper-slide .swiper2 ul{
+    position: absolute;
+    top: 35%;
+    left:20%;
+    color: aliceblue;
+}
+.swiper-slide .swiper2 ul li{
+    list-style: none;
+    font-size: 35px;
+}
+@keyframes img2{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(1800deg)
+    }
+}
+@keyframes img3{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(-1800deg)
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper-slide .swiper3 {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 1, 32);
+}
+.swiper-slide .swiper3 img:nth-child(1){
+    position: absolute;
+    top: -3%;
+    left: -6%;
+    overflow: hidden;
+}
+.swiper-slide .swiper3 img:nth-child(2){
+    position: absolute;
+    top: -7%;
+    right: -15%;
+    overflow: hidden;
+}
+.swiper-slide .swiper3 img:nth-child(3){
+    position: absolute;
+    bottom:60%;
+    left:10%;
+    overflow: hidden;
+    
+}
+.swiper-slide .swiper3 img:nth-child(4){
+    position: absolute;
+    top:65%;
+    left:23%;
+    overflow: hidden;
+    animation: img2 10s linear;
+}
+.swiper-slide .swiper3 img:nth-child(5){
+    position: absolute;
+    bottom:-5%;
+    left:-5%;
+    overflow: hidden;
+}
+.swiper-slide .swiper3 img:nth-child(6){
+    position: absolute;
+    bottom:4%;
+    right:-10%;
+    overflow: hidden;
+    opacity: 0.6;
+    animation: img3 15s linear;
+}
+.swiper-slide .swiper3 img:nth-child(7){
+    position: absolute;
+    top:15%;
+    left:25%;
+    overflow: hidden;
+    opacity: 0.6;
+
+}
+.swiper-slide .swiper3 img:nth-child(8){
+    position: absolute;
+    top:23%;
+    left:9%;
+    overflow: hidden;
+    opacity: 0.6;
+    width: 800px;
+}
+.p1{
+    color: aliceblue;
+    left: 23%;
+    top: 15%;
+    position: absolute;
+    font-size: 60px;
+    font-family: yuanhei;
+    opacity: 0.6;
+}
+.p2{
+    color: aliceblue;
+    left: 43.5%;
+    top:22%;
+    position: absolute;
+    font-size: 60px;
+    font-family: yuanhei;
+    opacity: 0.6;
+}
+.p3{
+    color: aliceblue;
+    left: 12%;
+    top:54%;
+    position: absolute;
+    font-size: 60px;
+    font-family: yuanhei;
+    opacity: 0.6;
+}
+.p4{
+    color: aliceblue;
+    right: 12%;
+    top:54%;
+    position: absolute;
+    font-size: 60px;
+    font-family: yuanhei;
+    opacity: 0.6;
+}
+.p5{
+    right: 30%;
+    top:41%;
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+}
+@keyframes img2{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(1800deg)
+    }
+}
+@keyframes img3{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(-1800deg)
+    }
+    
+}
+
+
+
+
+
+
+
+
+.swiper-slide .swiper4 {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 1, 32);
+}
+.swiper-slide .swiper4 img:nth-child(1){
+    position: absolute;
+    top: -3%;
+    left: -6%;
+    overflow: hidden;
+}
+.swiper-slide .swiper4 img:nth-child(2){
+    position: absolute;
+    top: -7%;
+    right: -15%;
+    overflow: hidden;
+}
+.swiper-slide .swiper4 img:nth-child(3){
+    position: absolute;
+    bottom:60%;
+    left:10%;
+    overflow: hidden;
+    
+}
+.swiper-slide .swiper4 img:nth-child(4){
+    position: absolute;
+    top:65%;
+    left:23%;
+    overflow: hidden;
+    animation: img2 15s linear;
+}
+.swiper-slide .swiper4 img:nth-child(5){
+    position: absolute;
+    bottom:-5%;
+    left:-5%;
+    overflow: hidden;
+}
+.swiper-slide .swiper4 img:nth-child(6){
+    position: absolute;
+    bottom:4%;
+    right:-10%;
+    overflow: hidden;
+    opacity: 0.6;
+    animation: img3 15s linear;
+}
+.swiper-slide .swiper4 img:nth-child(7){
+    position: absolute;
+    top:15%;
+    left:25%;
+    overflow: hidden;
+    opacity: 0.6;
+
+}
+.swiper-slide .swiper4 img:nth-child(8){
+    position: absolute;
+    top:23%;
+    left:9%;
+    overflow: hidden;
+    opacity: 0.6;
+    width: 800px;
+}
+@keyframes img2{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+@keyframes img3{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(-360deg)
+    }
+    
+}
+
+
+
+
+
+
+
+.buo ul{
+    position: absolute;
+    top: 27%;
+    left: 20%;
+}
+.buo ul li{
+    color: aliceblue;
+    list-style: none;
+    font-size: 50px;
+}
+.buo ul li input{
+    width: 100%;
+    height: 40px;
+    font-size: 40px;
+}
+.ti{
+    position: absolute;
+    top: 110%;
+    left: 44%;   
+    width: 120px;
+    height: 80px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+.swiper-slide .swiper5 {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 1, 32);
+}
+.swiper-slide .swiper5 img:nth-child(1){
+    position: absolute;
+    top: -3%;
+    left: -6%;
+    overflow: hidden;
+}
+.swiper-slide .swiper5 img:nth-child(2){
+    position: absolute;
+    top: -7%;
+    right: -15%;
+    overflow: hidden;
+}
+.swiper-slide .swiper5 img:nth-child(3){
+    position: absolute;
+    bottom:60%;
+    left:10%;
+    overflow: hidden;
+    
+}
+.swiper-slide .swiper5 img:nth-child(4){
+    position: absolute;
+    bottom:5%;
+    right:-5%;
+    overflow: hidden;
+}
+.swiper-slide .swiper5 img:nth-child(5){
+    position: absolute;
+    bottom:-5%;
+    left:-5%;
+    overflow: hidden;
+}
+.swiper-slide .swiper5 img:nth-child(6){
+    position: absolute;
+    bottom:10%;
+    right:5%;
+    overflow: hidden;
+    opacity: 0.6;
+}
+.swiper-slide .swiper5 img:nth-child(7){
+    position: absolute;
+    top:15%;
+    left:25%;
+    overflow: hidden;
+    opacity: 0.6;
+    width: 500px;
+}
+.swiper-slide .swiper5 p{
+    color: aliceblue;
+    left: 23%;
+    top: 20%;
+    position: absolute;
+    font-size: 60px;
+    font-family: yuanhei;
+    opacity: 0.6;
+}
+#map{
+    position: absolute;
+    top: 45%;
+    left: 13%;
+    opacity: 0.5;
+}
+
+
+
