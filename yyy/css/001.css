@@ -546,7 +546,7 @@ body {
 }
 .swiper-slide .swiper5 p{
     color: aliceblue;
-    left: 25%;
+    left: 23%;
     top: 20%;
     position: absolute;
     font-size: 60px;
@@ -559,17 +559,6 @@ body {
     left: 13%;
     opacity: 0.5;
 }
-.swiper-slide .swiper5 img:nth-child(8){
-    width: 50%;
-    position: absolute;
-    top: 60%;
-    right:25%;
-}
-.swiper-slide .swiper5 img:nth-child(7){
-    width: 50%;
-    position: absolute;
-    top: 35%;
-    right: 10%;
-}
+
 
 
