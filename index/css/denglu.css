@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fcfbf7;
+}
+.input1{
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 20%;
+
+}
+.input1 input{
+    width: 80%;
+    height: 100%;
+    float: right;
+    margin-right: 3%;
+}
+.input1 span{
+   margin-left: 4%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.input2{
+    width: 100%;
+    height: 30px;
+    margin: auto;
+}
+.input2 input{
+    width: 80%;
+    height: 100%;
+    float: right;
+    margin-right: 3%;
+}
+.input2 span{
+   margin-left: 4%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.input3 p{
+    font-size: 12px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.input4{
+    text-align: center;
+}
+.input4 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.input4 button{
+    width: 70%;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    margin-top: 6%;
+    color: aliceblue;
+    font-size: 15px;
+}
+.input5 a{
+    color: #4685ee;
+    text-decoration: none;
+}
+.input5 p:nth-child(1){
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.input5 p:nth-child(2){
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
